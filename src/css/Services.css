@@ -1,0 +1,99 @@
+.services-page { padding-top: 0; }
+
+.services-hero {
+  position: relative;
+  height: 52vh;
+  min-height: 380px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 4rem;
+}
+.services-hero__bg {
+  position: absolute; inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+.services-hero__overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(10,25,10,0.85) 0%, rgba(10,25,10,0.35) 60%);
+}
+.services-hero__content {
+  position: relative;
+  z-index: 1;
+  padding-top: var(--nav-height);
+}
+.services-hero__content h1 { color: white; margin: 0.5rem 0 0.75rem; }
+.services-hero__tagline {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 1.5rem;
+}
+.hero__eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--green-light);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.services-page__intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.services-page__features {
+  background: var(--cream);
+  padding: 2.5rem;
+  border-radius: var(--radius-md);
+}
+.services-page__features h4 {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--green-accent);
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+.services-page__features ul { display: flex; flex-direction: column; gap: 0.6rem; list-style: none; padding: 0; }
+.services-page__features li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+.check { color: var(--green-accent); font-weight: 700; font-size: 1rem; }
+
+.services-page__others {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.services-page__other-card {
+  padding: 2rem;
+  border: 1.5px solid var(--stone);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: box-shadow var(--transition), border-color var(--transition);
+  text-decoration: none;
+}
+.services-page__other-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--green-accent);
+}
+.services-page__other-icon { font-size: 2rem; }
+.services-page__other-card h3 { font-size: 1.2rem; color: var(--text-primary); }
+.services-page__other-card p { font-size: 0.9rem; flex: 1; }
+
+@media (max-width: 768px) {
+  .services-page__intro { grid-template-columns: 1fr; gap: 2rem; }
+  .services-page__others { grid-template-columns: 1fr; }
+}

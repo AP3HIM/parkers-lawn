@@ -1,0 +1,157 @@
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  transition: background 0.35s ease, box-shadow 0.35s ease;
+  background: transparent;
+}
+
+.navbar--scrolled {
+  background: rgba(26, 46, 26, 0.96);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.18);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+.navbar__logo-mark {
+  width: 36px; height: 36px;
+  background: var(--green-accent);
+  color: white;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.navbar__logo-text {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  line-height: 1.2;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar__link {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.88);
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  transition: color var(--transition);
+  padding: 0;
+}
+.navbar__link:hover,
+.navbar__link.active { color: var(--green-light); }
+
+.navbar__cta { font-size: 0.85rem; padding: 0.65rem 1.4rem; }
+
+/* ── Dropdown — fixed gap bug ── */
+.navbar__dropdown {
+  position: relative;
+}
+
+/* The invisible bridge fills the gap between button and menu
+   so the mouse doesn't lose hover state while moving down */
+.navbar__dropdown::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  right: -20px;
+  height: 20px;
+  background: transparent;
+}
+
+.navbar__dropdown:hover .navbar__dropdown-menu {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(-50%) translateY(0);
+}
+
+.navbar__dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-6px);
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: 0.5rem 0;
+  min-width: 190px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  /* Bridge above the menu so hover isn't lost */
+  margin-top: 8px;
+}
+
+/* Invisible top padding inside menu acts as additional bridge */
+.navbar__dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -16px;
+  left: 0; right: 0;
+  height: 16px;
+}
+
+.navbar__dropdown-item {
+  display: block;
+  padding: 0.7rem 1.2rem;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  transition: background var(--transition), color var(--transition);
+}
+.navbar__dropdown-item:hover {
+  background: var(--cream);
+  color: var(--green-mid);
+}
+
+.navbar__hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.navbar__mobile {
+  display: flex;
+  flex-direction: column;
+  background: var(--green-deep);
+  padding: 1.5rem 2rem;
+  gap: 1.2rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.navbar__mobile a {
+  color: rgba(255,255,255,0.85);
+  font-size: 1rem;
+}
+.navbar__mobile a:hover { color: var(--green-light); }
+.navbar__mobile .btn { width: fit-content; margin-top: 0.5rem; }
+
+@media (max-width: 768px) {
+  .navbar__links { display: none; }
+  .navbar__hamburger { display: flex; }
+  .navbar--scrolled { background: rgba(26, 46, 26, 0.98); }
+}

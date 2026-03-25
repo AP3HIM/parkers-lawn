@@ -1,0 +1,87 @@
+.careers-page { padding-bottom: 0; }
+
+.careers-hero {
+  background: var(--green-deep);
+  padding: 140px 0 60px;
+}
+.careers-hero .hero__eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--green-light);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+.careers-hero h1 { color: white; margin-bottom: 0.75rem; }
+.careers-hero p { color: rgba(255,255,255,0.65); font-size: 1.05rem; max-width: 560px; }
+
+.careers-page__perks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.careers-perk {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.75rem;
+  background: var(--cream);
+  border-radius: var(--radius-md);
+  align-items: flex-start;
+}
+.careers-perk > span {
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.careers-perk strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  color: var(--text-primary);
+}
+.careers-perk p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.careers-page__form-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.careers-page__form-intro p:first-of-type { margin-bottom: 1.5rem; }
+
+.careers-page__contact-alt {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+.careers-page__contact-alt > p {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-light);
+  margin-bottom: 0;
+}
+
+.careers-page__form-box {
+  background: white;
+  padding: 2.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.careers-form { display: flex; flex-direction: column; gap: 1.25rem; }
+.careers-form__row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+.careers-form__submit { width: 100%; justify-content: center; padding: 1rem; font-size: 1rem; margin-top: 0.5rem; }
+
+@media (max-width: 900px) {
+  .careers-page__form-wrap { grid-template-columns: 1fr; gap: 2.5rem; }
+  .careers-page__perks { grid-template-columns: 1fr; }
+  .careers-form__row { grid-template-columns: 1fr; }
+}
