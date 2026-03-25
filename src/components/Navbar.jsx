@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
-import { Menu, X, Leaf } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import '../css/Navbar.css'
 
 const Navbar = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner container">
         <Link to="/" className="navbar__logo" onClick={() => setMenuOpen(false)}>
-          <span className="navbar__logo-mark"><Leaf size={18} /></span>
+          <img src="/images/image1.jpeg" alt="Parker's Lawn & Landscaping" className="navbar__logo-img" />
           <span className="navbar__logo-text">Parker's Lawn &amp; Landscaping</span>
         </Link>
 

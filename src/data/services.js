@@ -17,6 +17,7 @@ export const services = {
       "Spring & Fall Cleanup",
     ],
     photos: [
+      { src: "/images/image32.jpg",  alt: "Mulching with foliage",        caption: "Mulching with foliage" },
       { src: "/images/image2.jpeg",  alt: "Mulching with foliage",        caption: "Mulching with foliage" },
       { src: "/images/image12.jpeg", alt: "Trees and soil platform",      caption: "Trees and soil platform" },
       { src: "/images/image13.jpeg", alt: "Trees side view",    caption: "Trees side view" },
@@ -80,12 +81,10 @@ export const services = {
       "Seasonal Maintenance Plans",
     ],
     photos: [
-      { src: "/images/image21.jpeg", alt: "Snow removal",  caption: "Snow removal" },
-      { src: "/images/image22.jpeg", alt: "Irrigation",    caption: "Irrigation install" },
-      { src: "/images/image23.jpeg", alt: "Commercial",    caption: "Commercial property" },
-      { src: "/images/image24.jpeg", alt: "Large job",     caption: "Large-scale project" },
-      { src: "/images/image25.jpeg", alt: "Grading",       caption: "Site grading" },
-      { src: "/images/image26.jpeg", alt: "Cleared lot",   caption: "Lot clearing" },
+      { src: "/images/image33.jpg",  alt: "Snow removal",  caption: "Snow removal" },
+      { src: "/images/image21.jpeg", alt: "Foliage in front",  caption: "Foliage in front" },
+      { src: "/images/image22.jpeg", alt: "Extra foliage",    caption: "Extra foliage" },
+      { src: "/images/image23.jpeg", alt: "Mulching and soil",    caption: "Mulching and soil" },
     ]
   }
 }
