@@ -48,22 +48,14 @@ export const services = {
       { src: "/extraimg/image14.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg/image13.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg/image12.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image6.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image2.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image1.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg5/image0.jpeg",  alt: "Flowers", caption: "Flowers against house" },
-      { src: "/extraimg5/image1.jpeg",  alt: "Flowers", caption: "Flowers" },
-      { src: "/extraimg5/image2.jpeg",  alt: "Flowers", caption: "Flowers" },
       { src: "/extraimg5/image3.jpeg",  alt: "Flowers", caption: "Flowers" },
-      { src: "/extraimg5/image4.jpeg",  alt: "Flowers", caption: "Flowers and foliage" },
-      { src: "/extraimg5/image5.jpeg",  alt: "Flowers", caption: "Flowers with soil" },
       { src: "/extraimg5/image6.jpeg",  alt: "Flowers", caption: "Flowers" },
       { src: "/extraimg5/image7.jpeg",  alt: "Flowers", caption: "Flowers" },
       { src: "/images/image14.jpeg",  alt: "View of trees", caption: "View of trees" },
       { src: "/images/image15.jpeg", alt: "Mulch install",     caption: "Fresh mulch installation" },
       { src: "/images/image24.jpeg",  alt: "Wide shot of mulching",     caption: "Wide shot of mulching" },
       { src: "/images/image25.jpeg",  alt: "Mulching from side",       caption: "Mulching from side" },
-      { src: "/images/image26.jpeg",  alt: "Side shot of mulching",  caption: "Side shot of mulching" },
     ]
   },
   hardscapes: {
@@ -79,14 +71,9 @@ export const services = {
     ],
     photos: [
       { src: "/extraimg5/image26.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
-      { src: "/extraimg5/image25.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
-      { src: "/extraimg5/image23.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
       { src: "/extraimg5/image22.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
-      { src: "/extraimg5/image21.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
       { src: "/extraimg5/image20.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
       { src: "/extraimg5/image19.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
-      { src: "/extraimg5/image18.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
-      { src: "/extraimg5/image15.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
       { src: "/images/image10.jpeg", alt: "Retaining wall", caption: "Custom retaining wall" },
       { src: "/images/image24.jpeg", alt: "Brick blocks",    caption: "Brick blocks" },
       { src: "/images/image8.jpeg", alt: "Full shot of wall",       caption: "Full shot of wall" },
@@ -115,8 +102,6 @@ export const services = {
       { src: "/images/image38.jpg",  alt: "Aeration",  caption: "Aeration" },
       { src: "/images/image39.jpg",  alt: "Aeration",  caption: "Aeration" },
       { src: "/images/image36.jpeg",  alt: "Snow removal",  caption: "Snow removal" },
-      { src: "/images/image21.jpeg", alt: "Foliage in front",  caption: "Foliage in front" },
-      { src: "/images/image22.jpeg", alt: "Extra foliage",    caption: "Extra foliage" },
     ]
   }
 }

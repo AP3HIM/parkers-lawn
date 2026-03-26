@@ -18,7 +18,7 @@ const testimonials = [
     image: '/images/image3.jpeg'
   },
   {
-    name: 'Colleen Stout',
+    name: 'Colleen',
     text: "Thank you for the care you took to select a mulch that would be safe for our dog who enjoys napping in the landscape beds. I'm impressed with Parker's entrepreneurial spirit, strong work ethic, and the quality of service. Would highly recommend to any neighbors looking for lawn/ landscape service!",
     rating: 5,
     service: 'Landscaping',
