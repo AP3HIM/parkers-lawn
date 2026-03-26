@@ -48,18 +48,9 @@ export const services = {
       { src: "/extraimg/image14.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg/image13.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg/image12.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image11.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image10.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image9.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image8.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image7.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg/image6.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image5.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image4.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image3.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg/image2.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg/image1.jpeg",  alt: "Rocks", caption: "Rocks" },
-      { src: "/extraimg/image0.jpeg",  alt: "Rocks", caption: "Rocks" },
       { src: "/extraimg5/image0.jpeg",  alt: "Flowers", caption: "Flowers against house" },
       { src: "/extraimg5/image1.jpeg",  alt: "Flowers", caption: "Flowers" },
       { src: "/extraimg5/image2.jpeg",  alt: "Flowers", caption: "Flowers" },
@@ -109,7 +100,7 @@ export const services = {
       "Beyond the basics. We handle snow removal, irrigation installs, commercial properties, and large-scale grading. If it is outside, we can handle it.",
     features: [
       "Snow Removal",
-      "Comemrcial and Residential Snow Removal",
+      "Commercial and Residential Snow Removal",
       "Irrigation Install",
       "Commercial Services",
       "Brush Clearing",
@@ -126,7 +117,6 @@ export const services = {
       { src: "/images/image36.jpeg",  alt: "Snow removal",  caption: "Snow removal" },
       { src: "/images/image21.jpeg", alt: "Foliage in front",  caption: "Foliage in front" },
       { src: "/images/image22.jpeg", alt: "Extra foliage",    caption: "Extra foliage" },
-      { src: "/images/image23.jpeg", alt: "Mulching and soil",    caption: "Mulching and soil" },
     ]
   }
 }

@@ -11,14 +11,14 @@ const testimonials = [
     image: '/images/image9.jpeg'
   },
   {
-    name: 'Mick Indiao',
+    name: 'Jeff Scott',
     text: 'I had Parker Stoldt out last year to replace my mulch beds and I can\'t recommend him enough! He does a quality job at a reasonable price. He also had a great crew with a great work ethic and there was constant communication. 10/10, would use him again!',
     rating: 5,
     service: 'Lawn Care',
     image: '/images/image3.jpeg'
   },
   {
-    name: 'Stephanie Stout',
+    name: 'Colleen Stout',
     text: "Thank you for the care you took to select a mulch that would be safe for our dog who enjoys napping in the landscape beds. I'm impressed with Parker's entrepreneurial spirit, strong work ethic, and the quality of service. Would highly recommend to any neighbors looking for lawn/ landscape service!",
     rating: 5,
     service: 'Landscaping',
