@@ -23,12 +23,8 @@ export const services = {
       { src: "/images/image36.jpg",  alt: "Mowing lines",  caption: "Mowing lines" },
       { src: "/images/image37.jpg",  alt: "Mowing lines",  caption: "Mowing lines" },
       { src: "/images/image32.jpg",  alt: "Mowing lines wide shot",        caption: "Mowing lines wide shot" },
-      { src: "/images/image2.jpeg",  alt: "Mowing lines wide shot",        caption: "Mulching with foliage" },
       { src: "/images/image12.jpeg", alt: "Trees and soil platform",      caption: "Trees and soil platform" },
       { src: "/images/image13.jpeg", alt: "Trees side view",    caption: "Trees side view" },
-      { src: "/images/image3.jpeg",  alt: "Wide shot of mulching",     caption: "Wide shot of mulching" },
-      { src: "/images/image4.jpeg",  alt: "Mulching garden bed",       caption: "Mulching garden bed" },
-      { src: "/images/image5.jpeg",  alt: "Side shot of mulching",  caption: "Side shot of mulching" },
     ]
   },
   landscaping: {
@@ -75,7 +71,6 @@ export const services = {
       { src: "/extraimg5/image20.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
       { src: "/extraimg5/image19.jpeg",  alt: "Retaining wall", caption: "Retaining wall" },
       { src: "/images/image10.jpeg", alt: "Retaining wall", caption: "Custom retaining wall" },
-      { src: "/images/image24.jpeg", alt: "Brick blocks",    caption: "Brick blocks" },
       { src: "/images/image8.jpeg", alt: "Full shot of wall",       caption: "Full shot of wall" },
       { src: "/images/image9.jpeg", alt: "Retaining Wall",        caption: "Retaining Wall" },
     ]
