@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { DollarSign, TrendingUp, Users, Sun, Phone, MessageSquare } from 'lucide-react'
 import '../css/Careers.css'
 
-const FORMSPREE_CAREERS_ID = 'xvzvpqew'
+const FORMSPREE_CAREERS_ID = 'meepvodk'
 
 const Careers = () => {
   const [status, setStatus] = useState('idle')

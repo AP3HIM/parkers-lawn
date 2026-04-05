@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Phone, Mail, Star, ArrowRight } from 'lucide-react'
 import '../css/Quote.css'
 
-const FORMSPREE_ID = 'xkopwzdv'
+const FORMSPREE_ID = 'xojpyvbl'
 
 const Quote = () => {
   const [status, setStatus] = useState('idle')
