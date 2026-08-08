@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import PhotoGallery from '../components/PhotoGallery'
-import { services } from '../data/services'
+import ProjectGallery from '../components/ProjectGallery'
+import { services, getCoverPhoto } from '../data/services'
 import '../css/Services.css'
 
 const Services = () => {
@@ -21,12 +21,16 @@ const Services = () => {
   }
 
   const otherServices = Object.entries(services).filter(([key]) => key !== category)
+  const cover = getCoverPhoto(svc)
 
   return (
     <div className="services-page">
 
       <section className="services-hero">
-        <div className="services-hero__bg" style={{ backgroundImage: `url(${svc.photos[0].src})` }} />
+        <div
+          className="services-hero__bg"
+          style={cover ? { backgroundImage: `url(${cover.src})` } : undefined}
+        />
         <div className="services-hero__overlay" />
         <div className="container services-hero__content">
           <p className="hero__eyebrow">{svc.icon} Our Services</p>
@@ -69,7 +73,7 @@ const Services = () => {
           <p className="section__label">Our Work</p>
           <h2 className="section__title">Project Gallery</h2>
           <div className="divider" />
-          <PhotoGallery photos={svc.photos} />
+          <ProjectGallery projects={svc.projects} />
         </div>
       </section>
 

@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { ShieldCheck, MapPin, Camera, MessageSquare, ArrowRight, Phone } from 'lucide-react'
 import ServiceCard from '../components/ServiceCard'
 import TestimonialBlock from '../components/TestimonialBlock'
-import { services } from '../data/services'
+import { services, getCoverPhoto } from '../data/services'
 import { tips } from '../data/tips'
 import '../css/Home.css'
 
@@ -57,7 +57,7 @@ const Home = () => {
                 category={key}
                 title={svc.title}
                 description={svc.tagline}
-                image={svc.photos[0].src}
+                image={getCoverPhoto(svc)?.src}
               />
             ))}
           </div>
